@@ -1,0 +1,16 @@
+# python dev
+.pyc
+.idea
+__pycache__/
+
+# mac
+.DS_Store
+
+# build
+build/
+dist/
+stroker.egg-info/
+result/
+
+# resource
+images/
