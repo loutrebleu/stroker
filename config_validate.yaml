@@ -1,0 +1,19 @@
+dataset:
+  path: images/marker/dev1
+  transforms:
+    crop: [128, 128]
+    resize: [64, 64]
+
+loader:
+  batch_size: 1
+  shuffle: True
+
+model:
+  image_shape: [1, 64, 64]
+  num_layer: 4
+  base_channel: 8
+  latent_size: 50
+
+validate:
+  device: "cpu"
+  model_path: result/2025.02.11.172811/model_step=003000.pth

@@ -2,4 +2,7 @@ numpy
 pandas
 matplotlib
 tqdm
-qiskit
+xtools
+xsim
+torch
+torchvision

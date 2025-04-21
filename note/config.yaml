@@ -1,0 +1,7 @@
+dataset:
+  path: ../images/marker/dev1
+  transforms:
+    crop: [128, 128]
+    resize: [64, 64]
+  batch_size: 16
+  shuffle: True
